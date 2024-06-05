@@ -1,15 +1,16 @@
 /* Google Fonts Import */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lobster&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.css');
 
 body {
     font-family: 'Roboto', sans-serif;
-    background: #f0f2f5;
+    background: #f8f9fa;
     margin: 0;
     padding: 0;
 }
 
 #header {
-    background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
+    background: linear-gradient(90deg, #4b3621 0%, #8b5e34 100%);
     color: white;
     padding: 3rem 0;
     text-align: center;
@@ -59,7 +60,38 @@ body {
 }
 
 #main .btn:hover {
-    background: #5a0eb7;
+    background: #6a3e2e;
+}
+
+#features {
+    background: #f0e5d6;
+}
+
+#features h2 {
+    font-size: 2.5em;
+    color: #4b3621;
+}
+
+#features .text-brown {
+    color: #8b5e34;
+}
+
+#reviews {
+    background: #fff8f0;
+}
+
+#reviews h2 {
+    font-size: 2.5em;
+    color: #4b3621;
+}
+
+#contact {
+    background: #f0e5d6;
+}
+
+#contact h2 {
+    font-size: 2.5em;
+    color: #4b3621;
 }
 
 #footer {
